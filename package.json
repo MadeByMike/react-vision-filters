@@ -1,0 +1,27 @@
+{
+  "name": "react-vision-filters",
+  "version": "1.0.3",
+  "description": "Simulate vision impairments in design systems.",
+  "author": "Mike <mike@madebymike.com.au>",
+  "license": "MIT",
+  "source": "src/index.js",
+  "main": "dist/vision-filters.js",
+  "module": "dist/vision-filters.module.js",
+  "unpkg": "dist/vision-filters.umd.js",
+  "scripts": {
+    "build": "microbundle --jsx React.createElement --external react",
+    "dev": "microbundle watch ",
+    "test": "parcel test/index.html"
+  },
+  "dependencies": {
+    "react-select": "^3.0.8"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "microbundle": "^0.12.0-next.8",
+    "parcel": "^1.12.4"
+  }
+}
