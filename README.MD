@@ -2,6 +2,8 @@
 
 A simple React component to add vision filters to a website.
 
+<img src="https://github.com/MadeByMike/react-vision-filters/blob/master/test/test.gif"/>
+
 ## Why?
 
 Allows basic simulation of common vision impairments including:
